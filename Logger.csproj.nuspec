@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Logger.csproj</id>
+    <version>1.0.0</version>
+    <authors>igtr</authors>
+    <owners>igtr</owners>
+    <licenseUrl>https://github.com/IGORzysko/Logger</licenseUrl>
+    <projectUrl>https://github.com/IGORzysko/Logger</projectUrl>
+    <iconUrl>https://github.com/IGORzysko/Logger/blob/master/mike_git_hub.jpeg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Project created for the sake of creation nuget package.</description>
+    <releaseNotes>Project created for the sake of creation nuget package.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags></tags>
+  </metadata>
+</package>
