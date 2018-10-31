@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Logger.csproj</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <authors>igtr</authors>
     <owners>igtr</owners>
     <licenseUrl>https://github.com/IGORzysko/Logger</licenseUrl>
@@ -10,8 +10,14 @@
     <iconUrl>https://github.com/IGORzysko/Logger/blob/master/mike_git_hub.jpeg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Project created for the sake of creation nuget package.</description>
-    <releaseNotes>Project created for the sake of creation nuget package.</releaseNotes>
+    <releaseNotes>Included dependencies and file reference to the nuspec file.</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags></tags>
+	<dependencies>
+		<dependency id="Microsoft.CSharp" version="4.0.0.0" />
+	</dependencies>
   </metadata>
+  <files>
+	<file src="Logger\Logger.cs" target="content\Logger.cs"/>
+  </files>
 </package>
